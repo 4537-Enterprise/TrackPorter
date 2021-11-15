@@ -9,8 +9,8 @@ tbd
 tbd
 
 ## Cloning this Repo (For my reference because I'm going to forget this)
-Setup Git on the computer
-Get github CLI
-Login with github CLI
-Use the command line to create a repo because VSCode sucks https://stackoverflow.com/questions/46877667/how-to-add-a-new-project-to-github-using-vs-code
-Use VSCode for the rest!
+Setup Git on the computer </br>
+Get github CLI </br>
+Login with github CLI </br>
+Use the command line to create a repo because VSCode sucks https://stackoverflow.com/questions/46877667/how-to-add-a-new-project-to-github-using-vs-code </br>
+Use VSCode for the rest! </br>
