@@ -19,5 +19,5 @@ TBD
 1. Setup Git on the computer </br>
 2. Get github CLI </br>
 3. Login with github CLI </br>
-4. Use the command line to create a repo because VSCode sucks https://stackoverflow.com/questions/46877667/how-to-add-a-new-project-to-github-using-vs-code </br>'
+4. Use the command line to create a repo because VSCode sucks https://stackoverflow.com/questions/46877667/how-to-add-a-new-project-to-github-using-vs-code </br>
 5. Use VSCode for the rest! </br>
