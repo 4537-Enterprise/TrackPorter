@@ -25,3 +25,6 @@ TBD
 ## Resources used
 
 1. <https://www.jetsonhacks.com/2019/07/22/jetson-nano-using-i2c/>
+2. <https://qengineering.eu/install-ubuntu-20.04-on-jetson-nano.html>
+3. <http://wiki.ros.org/noetic/Installation/Ubuntu>
+4. <https://www.stereolabs.com/blog/ros-and-nvidia-jetson-nano/>
