@@ -8,7 +8,12 @@ How to install our file and get it up and runnning on your trackporter:
 
 ### FTC Java Method
 
-TBD
+1. Install Android Studio
+2. Clone Repository
+3. Open project at AndroidStudio/TrackporterRobotController/
+4. Connect to Control Hub (Either via USB C cable or connect to it's wifi network and use ADB)
+5. Use shift+F10 or click the play button at the top to install code onto Control Hub
+6. Connect driver controller or connect to hub wifi and go to 192.168.43.1:8080/dash
 
 ### ROS Method
 
