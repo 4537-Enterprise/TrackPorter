@@ -4,7 +4,7 @@ Welcome to the FTC Team 4537 DRSS Enterprise Action TrackPorter Project. This pr
 
 ## Installation
 
-How to install our file and get it up and runnning on your trackporter:
+How to install our file and get it up and running on your trackporter:
 
 ### FTC Java Method
 
@@ -14,6 +14,16 @@ How to install our file and get it up and runnning on your trackporter:
 4. Connect to Control Hub (Either via USB C cable or connect to it's wifi network and use ADB)
 5. Use shift+F10 or click the play button at the top to install code onto Control Hub
 6. Connect driver controller or connect to hub wifi and go to 192.168.43.1:8080/dash
+
+### ROS Method
+
+TBD
+
+## Operating the TrackPorter
+
+### FTC Java Method
+
+TBD
 
 ### ROS Method
 
