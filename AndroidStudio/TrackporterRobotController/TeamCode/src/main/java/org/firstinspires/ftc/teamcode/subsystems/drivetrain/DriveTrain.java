@@ -40,6 +40,9 @@ public class DriveTrain {
     }
 
     public void drive(double leftMotorPower, double rightMotorPower) {
+        leftMotorPower = Math.pow(leftMotorPower, 3);
+        rightMotorPower = Math.pow(rightMotorPower, 3);
+
         setLeftMotor(leftMotorPower);
         setRightMotor(rightMotorPower);
 
