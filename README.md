@@ -21,6 +21,8 @@ TBD
 
 ## Operating the TrackPorter
 
+How to operate the Trackporter using both methods:
+
 ### FTC Java Method
 
 TBD
