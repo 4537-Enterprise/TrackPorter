@@ -24,19 +24,15 @@ public class DriveTrain {
         rightMotor = map.get(CRServo.class, "rightMotor");
 
         leftMotor.setDirection(DcMotorSimple.Direction.FORWARD);
-        rightMotor.setDirection(DcMotorSimple.Direction.REVERSE);
+        rightMotor.setDirection(DcMotorSimple.Direction.FORWARD);
     }
 
     public void setLeftMotor(double power) {
         leftMotor.setPower(power);
-
-        return;
     }
 
     public void setRightMotor(double power) {
         rightMotor.setPower(power);
-
-        return;
     }
 
     public void drive(double leftMotorPower, double rightMotorPower) {
@@ -53,7 +49,5 @@ public class DriveTrain {
         packet.put("Left Motor Power", leftMotorPower);
         packet.put("Right Motor Power", rightMotorPower);
         dashboard.sendTelemetryPacket(packet);
-
-        return;
     }
 }

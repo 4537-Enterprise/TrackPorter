@@ -23,7 +23,12 @@ TBD
 
 ### FTC Java Method
 
-TBD
+1. Run Trackporter TeleOp from the TeleOp list
+2. Press Start+A on the controller
+
+> Controls:
+> - Left Stick Up and Down: Forward Control of the Trackporter
+> - Right Stick Left and Right: Steering Control
 
 ### ROS Method
 
