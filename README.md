@@ -21,6 +21,8 @@ TBD
 
 ## Operating the TrackPorter
 
+How to operate the Trackporter using both methods:
+
 ### FTC Java Method
 
 1. Run Trackporter TeleOp from the TeleOp list
