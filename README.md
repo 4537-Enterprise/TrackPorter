@@ -25,6 +25,7 @@ How to operate the Trackporter using both methods:
 
 ### FTC Java Method
 
+Running the Program:
 1. Run Trackporter TeleOp from the TeleOp list
 2. Press Start+A on the controller
 
