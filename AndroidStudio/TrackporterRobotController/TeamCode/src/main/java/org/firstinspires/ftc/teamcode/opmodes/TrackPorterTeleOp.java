@@ -12,12 +12,6 @@ public class TrackPorterTeleOp extends LinearOpMode {
 
     TrackPorter trackPorter;
 
-    double adjustedGamepad1LeftY;
-    double adjustedGamepad1RightY;
-
-    double leftMotorPower;
-    double rightMotorPower;
-
     double speedModifier = 1;
 
     TelemetryPacket packet = new TelemetryPacket();
@@ -45,6 +39,7 @@ public class TrackPorterTeleOp extends LinearOpMode {
                 (leftMotorPower * speedModifier),
                 (rightMotorPower * speedModifier)
             );
+            trackPorter.drive.updateFeedForward();
         }
     }
 }

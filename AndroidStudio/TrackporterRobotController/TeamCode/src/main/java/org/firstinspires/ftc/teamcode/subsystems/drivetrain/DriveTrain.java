@@ -17,12 +17,12 @@ public class DriveTrain {
     CRServo rightMotor;
 
     SimpleMotorFeedforward driveFeedForward;
-    public static double kS = 1;
+    public static double kS = 0;
     public static double kV = 0;
     public static double kA = 0;
 
-    public static double MAX_VELOCITY = 30;
-    public static double MAX_ACCELERATION = 10;
+    public static double MAX_VELOCITY = 48;
+    public static double MAX_ACCELERATION = 24;
 
     Telemetry telemetry;
     TelemetryPacket packet = new TelemetryPacket();
@@ -40,7 +40,7 @@ public class DriveTrain {
         driveFeedForward = new SimpleMotorFeedforward(kS, kV, kA);
     }
 
-    public void updateFeedForwardCoefficents() {
+    public void updateFeedForward() {
         driveFeedForward = new SimpleMotorFeedforward(kS, kV, kA);
     }
 
