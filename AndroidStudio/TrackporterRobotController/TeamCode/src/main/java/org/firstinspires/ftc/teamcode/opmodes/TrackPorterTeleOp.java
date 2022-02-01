@@ -30,16 +30,16 @@ public class TrackPorterTeleOp extends LinearOpMode {
             double leftMotorPower = (gamepad1.left_stick_y - gamepad1.right_stick_x) / denominator;
             double rightMotorPower = (gamepad1.left_stick_y + gamepad1.right_stick_x) / denominator;
 
-            /*trackPorter.drive.drive(
+            trackPorter.drive.drive(
                     (leftMotorPower * speedModifier),
                     (rightMotorPower * speedModifier)
-            );*/
+            );
 
-            trackPorter.drive.feedForwardDrive(
+            /*trackPorter.drive.feedForwardDrive(
                 (leftMotorPower * speedModifier),
                 (rightMotorPower * speedModifier)
             );
-            trackPorter.drive.updateFeedForward();
+            trackPorter.drive.updateFeedForward();*/
         }
     }
 }
