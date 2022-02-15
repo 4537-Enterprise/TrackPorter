@@ -34,12 +34,6 @@ public class TrackPorterTeleOp extends LinearOpMode {
                     (leftMotorPower * speedModifier),
                     (rightMotorPower * speedModifier)
             );
-
-            /*trackPorter.drive.feedForwardDrive(
-                (leftMotorPower * speedModifier),
-                (rightMotorPower * speedModifier)
-            );
-            trackPorter.drive.updateFeedForward();*/
         }
     }
 }
