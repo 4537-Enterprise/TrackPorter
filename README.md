@@ -52,3 +52,4 @@ TBD
 3. <https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image>
 3. <http://wiki.ros.org/noetic/Installation/Ubuntu>
 4. <https://www.stereolabs.com/blog/ros-and-nvidia-jetson-nano/>
+5. <https://github.com/AJmods/UltimateGoal6547_V2/blob/master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/drivetrain/localizer/T265LocalizerRR.java>
